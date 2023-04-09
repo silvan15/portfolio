@@ -1,0 +1,350 @@
+body{
+position:relative;
+background-color:rgb(237, 234, 223);
+
+width:100%;
+
+}
+#gradient{
+height:100vh;
+width:100%;
+background-image:linear-gradient(rgb(219, 183, 116)0.01%,rgb(237, 234, 223)100%)
+
+}
+header{
+display:flex;
+align-items:center;
+margin-left:10px;
+
+}
+.headings{
+display:flex;
+align-items:center;
+}
+
+.headings h1{
+padding-left:20px;
+
+}
+
+
+.headsed{
+display:flex;
+flex-direction:raw;
+justify-content:space-between;
+align-items:center;
+
+}
+
+nav {
+margin-right:20px;
+}
+
+nav ul{
+display:flex;
+flex-direction:raw;
+justify-content:space-around;
+
+}
+
+nav ul li{
+color:white;
+font-weight:700;
+list-style-type:none;
+padding-right:30px;
+}
+
+nav ul li a {
+text-decoration:none;
+color:black;
+font-family: Arial;
+}
+
+a:hover{
+color:grey;
+}
+
+.text h2{
+font-size:20px;
+font-weight:400;
+
+}
+.text h1{
+font-size:48px;
+font-weight:400;
+width:60%;
+height:auto;
+padding:10px;
+}
+.text{
+display:flex;
+flex-direction:columns;
+border-style:solid;
+justify-content:center;
+margin:100px;
+padding:10px;
+}
+
+.project-wrapping{
+display:grid;
+grid-template-columns: 40% 40%;
+grid-auto-rows:minmax(500px,auto);
+grid-gap:20px;
+
+justify-content:center;
+}
+
+.pj1{
+border-style:solid;
+
+}
+.pj1 p{
+padding:10px;
+font-family:Arial;
+text-align:justify;
+}
+.pj1 h1{
+text-align:center;
+font-family:Arial;
+
+}
+.pj2{
+border-style:solid;
+
+}
+.pj2 p{
+padding:10px;
+font-family:Arial;
+text-align:justify;
+}
+.pj2 h1{
+text-align:center;
+font-family:Arial;
+
+}
+
+.pj3{
+border-style:solid;
+
+
+
+}
+.pj3 p{
+padding:10px;
+font-family:Arial;
+text-align:justify;
+}
+.pj3 h1{
+text-align:center;
+font-family:Arial;
+
+}
+.pj4{
+border-style:solid;
+}
+.pj4 p{
+padding:10px;
+font-family:Arial;
+text-align:justify;
+}
+.pj4 h1{
+text-align:center;
+font-family:Arial;
+
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%% this section for responsive icon in Home Page      %%%%%%%%  */
+
+#iconp{
+display:none
+}
+@media screen and (max-width: 600px){
+
+ #iconpc{
+ display:none;
+ }
+#iconp{
+display:block;
+}
+.headsed{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:flex-start;
+}
+
+nav ul {
+position:relative;
+display:flex;
+flex-direction:column;
+justify-content:center;
+left:-20px;
+
+}
+nav ul li{
+padding-bottom:10px;
+}
+.MobileNav{
+display:none;
+}
+.text{
+    width: 80%;
+    margin: 30px;
+    padding: 9px;
+
+
+}
+.text h1{
+    font-size: 20px;
+    text-align: justify;
+    width: 74%;
+    padding-right: 5px;
+    padding-left: 0px;
+}
+.text h2{
+    font-size: 15px;
+    padding-left: 2px;
+}
+
+.project-wrapping{
+display:grid;
+grid-template-columns: 80%;
+grid-auto-rows:minmax(500px,auto);
+grid-gap:20px;
+
+}
+.mainMe{
+flex-direction:column;
+align-items:center;
+}
+.aboutMe{
+    margin-right:0px;
+    margin-left: 9%;
+    margin-top: 3%;
+    width: 100%;
+
+}
+.picofMe img{
+position: relative;
+    bottom: 150px;
+    left: 20px;
+}
+}
+
+/* this section for Projects */
+
+#ProjectsWrapping{
+display:flex;
+flex-direction:column;
+margin:5%;
+height:100%;
+align-items:center;
+
+
+}
+
+#karar{
+
+width:75%;
+height:100%;
+padding:5px;
+display:flex;
+gap:5px;
+
+}
+#karar img{
+border-style:solid;
+
+}
+
+.yazi-karar{
+font-size:24px;
+text-align:justify;
+padding:5px;
+
+}
+
+#zaman{
+width:75%;
+height:100%;
+padding:5px;
+display:flex;
+gap:5px;
+
+}
+
+#zaman img{
+border-style:solid;
+}
+
+.yazi-zaman{
+font-size:24px;
+text-align:justify;
+padding:5px;
+
+}
+
+#ucd{
+width:75%;
+height:100%;
+padding:5px;
+display:flex;
+gap:5px;
+}
+
+.yazi-ucd{
+font-size:24px;
+text-align:justify;
+padding:5px;
+
+}
+
+#ucd img{
+border-style:solid;
+
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!    this section for Abot ME    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1*/
+.mainMe{
+display:flex;
+margin:50px 0px 10px 50px;
+justify-items:center;
+flex-wrap:wrap;
+
+}
+
+.picofMe{
+
+
+margin-right:30px;
+height:500px;
+
+}
+
+.picofMe img{
+position:relative;
+bottom:150px;
+
+
+}
+
+.aboutMe{
+flex:55%;
+margin-right:7%;
+margin-left:3%;
+margin-top:3%;
+height:300px;
+}
+
+.aboutMe p{
+text-align:justify;
+font-size:18px;
+font-family:Arial;
+line-height:30px;
+
+}
+
+
+
+

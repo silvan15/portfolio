@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link rel="stylesheet"type="text/css"href="scratches/Style.css">
+
+
+
+</head>
+
+
+    <body>
+
+
+
+              <div class="headsed">
+                  <header>
+                  <div onclick="toggle()">
+                      <img id="iconp"src="Images/icon.jpg"  width="50" height="50" >
+                                              </div>
+                    <div class="headings">
+                        <img id="iconpc"src="Images/zaman.jpg" width="30px" height="30px">
+                        <h1  class="Master Head"> Portofilio </h1>
+                    </div>
+                  </header>
+                     <div id="Mobillink" class="MobileNav">
+                        <nav >
+                         <ul>
+
+                          <li> <a href="Index.html">Home </a> </li>
+                             <li> <a href="Projects.html">Projects </a> </li>
+                             <li><a href="Aboutme.html">About Me </a>  </li>
+                          <li> <a href="Contact.html">Contact </a> </li>
+
+
+                        </ul>
+                        </nav>
+                     </div>
+                </div>
+        <main>
+            <div id="ProjectsWrapping">
+                <div id="karar">
+
+                    <img src="Images/karar teorisi.jpeg" alt="Decision  Theory" width="512" height="256">
+                    <p class="yazi-karar">
+                        Decision-making theory is a theory of how rational individuals should behave under risk and uncertainty. The theory suggests that decision-making means the adoption and application of rational choice for the management of a private, business, or governmental organization in an efficient manner. The theorist argued that making a decision is choosing between alternative courses of action. It can even mean choosing between action and non-action.
+                    </p>
+
+                </div>
+
+                <div id="zaman">
+                   <p class="yazi-zaman">
+                       Time management is the process of planning and exercising conscious control of time spent on specific activities, especially to increase effectiveness, efficiency, and productivity. It involves of various demands upon a person relating to work, social life, family, hobbies, personal interests, and commitments with the finite nature of time. Using time effectively gives the person "choice" on spending or managing activities at their own time and expediency.
+                   </p>
+                    <img src="Images/zaman.jpg" alt="Decision  Theory" width="512" height="256">
+                </div>
+
+                <div id="ucd">
+                    <img src="Images/3d.jpg" alt="Decision  Theory" width="512" height="256">
+                    <p class="yazi-ucd"> 3 boyutlu  modeller aciklama</p>
+                </div>
+
+
+
+            </div>
+
+
+
+        </main>
+  <script>
+ function toggle() {
+    let x = document.getElementById("Mobillink");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+      x.style.display = "none";
+  }
+}
+
+    </script>
+</body>
+</html>
